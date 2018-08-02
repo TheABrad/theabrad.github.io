@@ -1,12 +1,14 @@
 @import "~sanitize.css/sanitize.css";
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+$siteBlue: rgb(66,200,244);
+
 body {
   font-family: 'Lato';
   font-weight: 400;
   font-size: 17px;
   text-align: center;
-  border-top: 5px solid blue;
+  border-top: 5px solid $siteBlue;
 }
 
 .home {
