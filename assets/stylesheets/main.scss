@@ -1,12 +1,37 @@
 @import "~sanitize.css/sanitize.css";
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-  font-family: Georgia,serif;
+  font-family: 'Lato';
   font-weight: 400;
   font-size: 17px;
-  margin: 2rem 1.2rem;
+  text-align: center;
+  border-top: 5px solid blue;
 }
 
+.home {
+  margin: 40px 50px;  
+}
+
+a {
+  color: rgba(#000, 0.7);
+  text-decoration: none;
+  padding-right: 5px;
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+#profile-picture {
+  border-radius: 50%;
+  height: 10%;
+  width: 10%;
+}
+
+.links {
+  padding-top: 10px;
+}
 svg {
   display: inline-block;
   width: 30%;

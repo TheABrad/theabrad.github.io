@@ -26,3 +26,9 @@ configure :build do
   # Enable cache buster (except for images)
   activate :asset_hash, ignore: [/\.jpg\Z/, /\.png\Z/]
 end
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'master'
+  deploy.build_before = true
+end
