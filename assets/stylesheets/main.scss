@@ -1,18 +1,30 @@
-@import "~sanitize.css/sanitize.css";
+@charset 'utf-8';
+// @import "~sanitize.css/sanitize.css";
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 $siteBlue: rgb(66,200,244);
 
+$family-sans-serif: 'Roboto Mono', monospace;
+$link: rgba(#000, 0.7);
+
 body {
-  font-family: 'Lato';
-  font-weight: 400;
-  font-size: 17px;
-  text-align: center;
+  // font-family: 'Lato';
+  // font-weight: 400;
+  // font-size: 17px;
   border-top: 5px solid $siteBlue;
 }
 
 .home {
   margin: 40px 50px;  
+}
+
+.about {
+  padding-top: 20px;
+}
+
+.about-me {
+  text-align: center;
 }
 
 a {
@@ -25,6 +37,9 @@ a {
   }
 }
 
+.is-horizontal-center {
+  justify-content: center; 
+}
 #profile-picture {
   border-radius: 50%;
   height: 10%;
@@ -39,3 +54,16 @@ svg {
   width: 30%;
   padding: 3rem;
 }
+
+@import '../../node_modules/bulma/sass/utilities/_all.sass';
+@import '../../node_modules/bulma/sass/base/_all.sass';
+@import '../../node_modules/bulma/sass/components/card.sass';
+@import '../../node_modules/bulma/sass/grid/columns.sass';
+@import '../../node_modules/bulma/sass/grid/tiles.sass';
+@import '../../node_modules/bulma/sass/elements/button.sass';
+@import '../../node_modules/bulma/sass/elements/container.sass';
+@import '../../node_modules/bulma/sass/elements/form.sass';
+@import '../../node_modules/bulma/sass/elements/image.sass';
+@import '../../node_modules/bulma/sass/elements/title.sass';
+@import '../../node_modules/bulma/sass/layout/hero.sass';
+@import '../../node_modules/bulma/sass/layout/section.sass';

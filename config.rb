@@ -1,7 +1,6 @@
 # encoding: utf-8
 
 page '/index.html', layout: false
-page '/second.html', layout: false
 
 #
 # Use webpack for assets
