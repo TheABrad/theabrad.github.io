@@ -27,6 +27,9 @@ body {
   text-align: center;
 }
 
+.open-source {
+  padding-top: 25px;
+}
 a {
   color: rgba(#000, 0.7);
   text-decoration: none;
@@ -67,3 +70,5 @@ svg {
 @import '../../node_modules/bulma/sass/elements/title.sass';
 @import '../../node_modules/bulma/sass/layout/hero.sass';
 @import '../../node_modules/bulma/sass/layout/section.sass';
+
+body { margin-bottom: 75px; }
