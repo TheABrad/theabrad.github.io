@@ -5,7 +5,8 @@
 
 $siteBlue: rgb(66,200,244);
 
-$family-sans-serif: 'Roboto Mono', monospace;
+// $family-sans-serif: 'Roboto Mono', monospace;
+$family-sans-serif: 'Lato', sans-serif;
 $link: rgba(#000, 0.7);
 
 body {
@@ -72,3 +73,4 @@ svg {
 @import '../../node_modules/bulma/sass/layout/section.sass';
 
 body { margin-bottom: 75px; }
+.title { font-family: 'Roboto Mono', monospace; }
