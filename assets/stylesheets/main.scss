@@ -10,9 +10,6 @@ $family-sans-serif: 'Lato', sans-serif;
 $link: rgba(#000, 0.7);
 
 body {
-  // font-family: 'Lato';
-  // font-weight: 400;
-  // font-size: 17px;
   border-top: 5px solid $siteBlue;
 }
 
@@ -30,15 +27,6 @@ body {
 
 .open-source {
   padding-top: 25px;
-}
-a {
-  color: rgba(#000, 0.7);
-  text-decoration: none;
-  padding-right: 5px;
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
 }
 
 .is-horizontal-center {
@@ -74,3 +62,21 @@ svg {
 
 body { margin-bottom: 75px; }
 .title { font-family: 'Roboto Mono', monospace; }
+
+.projects {
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  color: darken($siteBlue, 20%);
+  // color: rgba(#000, 0.7);
+  text-decoration: none;
+  padding-right: 5px;
+
+  &:focus,
+  &:hover {
+    color: darken($siteBlue, 40% ) 
+  }
+}
+
